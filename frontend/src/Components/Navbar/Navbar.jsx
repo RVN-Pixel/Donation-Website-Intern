@@ -18,7 +18,7 @@ const Navbar = () => {
         <li className="btn">Contact Us</li>
       </ul>
       <div className="search-button">
-        <input type="text" placeholder="Search" />
+        <input type="search" placeholder="Search" />
         <button>
           <img src={search_icon} alt="" />
         </button>

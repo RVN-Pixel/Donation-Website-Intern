@@ -5,6 +5,7 @@
     url("../../Assets/hero.jpg");
   background-size: cover;
   background-position: center;
+  margin-top: 100px;
   color: white;
   display: flex;
   align-items: center;
@@ -26,17 +27,6 @@
   margin: 10px auto 20px;
   line-height: 1.4;
 }
-.search-box {
-  background-color: orange;
-  color: white;
-  padding: 14px 25px;
-  font-size: 16px;
-  border-radius: 30px;
-  cursor: pointer;
-  border: 0;
-  outline: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
+.explore {
+  margin-top: 50px;
 }
