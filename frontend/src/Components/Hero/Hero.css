@@ -29,4 +29,10 @@
 }
 .explore {
   margin-top: 50px;
+  font-size: 40px;
+  font-weight: 500;
+}
+.explore img {
+  width: 50px;
+  margin-left: 10px;
 }

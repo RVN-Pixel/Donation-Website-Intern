@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import arrow_icon from "../../Assets/white-right-icon.png";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -12,8 +13,20 @@ const Hero = () => {
           knowledge, skills, and experiences needed to excel in the dynamic
           field of education
         </p>
-        <button className="btn explore">
-          Donate Now <img src={arrow_icon} alt="" />
+        <button className="other-button explore">
+          <Link
+            style={{
+              textDecoration: "none",
+              color: "white",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "10px",
+            }}
+            to="/Donate"
+          >
+            Donate Now <img src={arrow_icon} alt="" />
+          </Link>
         </button>
       </div>
     </div>

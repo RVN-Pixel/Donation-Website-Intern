@@ -8,6 +8,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
 }
 .navbar-logo {
   margin-left: 100px;
@@ -25,13 +26,29 @@
   color: white;
 }
 
-.navbar ul li {
-  display: inline-block;
-  color: white;
+.nav-menu {
+  display: flex;
+  align-items: center;
   list-style: none;
-  margin: 5px 20px;
-  font-size: 16px;
-  font-weight: bolder;
+  gap: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
+}
+.nav-menu hr {
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 10px;
+  background: #ff4141;
 }
 .search-button {
   display: flex;
