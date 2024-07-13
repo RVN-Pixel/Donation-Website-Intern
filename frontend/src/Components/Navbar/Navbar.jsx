@@ -79,7 +79,10 @@ const Navbar = () => {
             setMenu("Login");
           }}
         >
-          <Link style={{ textDecoration: "none", color: "white" }} to="/Login">
+          <Link
+            style={{ textDecoration: "none", color: "white" }}
+            to="/Loginsignup"
+          >
             Login
           </Link>
           {menu === "Login" ? <hr /> : <></>}{" "}

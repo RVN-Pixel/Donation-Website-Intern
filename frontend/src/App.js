@@ -20,7 +20,7 @@ function App() {
           <Route path="/Programs" element={<Programs />} />
           <Route path="/Facilities" element={<Facilities />} />
           <Route path="/Contact" element={<Contact />} />
-          <Route path="/LoginSignUp" element={<LoginSignup />} />
+          <Route path="/LoginSignup" element={<LoginSignup />} />
         </Routes>
         <Footer />
       </BrowserRouter>
