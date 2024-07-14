@@ -19,7 +19,7 @@ const Navbar = () => {
             setMenu("Home");
           }}
         >
-          <Link style={{ textDecoration: "none", color: "white" }} to="/Home">
+          <Link style={{ textDecoration: "none", color: "white" }} to="/">
             Home
           </Link>{" "}
           {menu === "Home" ? <hr /> : <></>}{" "}

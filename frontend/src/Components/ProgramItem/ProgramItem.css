@@ -1,0 +1,60 @@
+.programs {
+  margin: 30px auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.program img {
+  width: 500px;
+  border-radius: 10px;
+  display: block;
+}
+
+.program {
+  flex-basis: 31%;
+  position: relative;
+}
+
+.caption {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 15, 152, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: aliceblue;
+  cursor: pointer;
+  opacity: 0;
+  padding-top: 70%;
+  transition: 0.4s;
+}
+
+.caption img {
+  width: 120px;
+  margin-bottom: 10px;
+}
+.caption h2 {
+  font-size: 30px;
+}
+.caption p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 40px;
+  padding-top: 20px;
+}
+
+.program:hover .caption {
+  opacity: 1;
+  padding-top: 0;
+  padding-bottom: 0;
+}
