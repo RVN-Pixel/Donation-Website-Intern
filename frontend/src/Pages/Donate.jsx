@@ -1,7 +1,12 @@
 import React from "react";
+import Banner from "../Components/Banner/Banner";
 
 const Donate = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Banner />
+    </div>
+  );
 };
 
 export default Donate;

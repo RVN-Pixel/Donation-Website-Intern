@@ -7,40 +7,31 @@
   align-items: center;
   gap: 10px;
 }
-.footer-logo {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.footer-logo img {
-  width: 60px;
-}
-.footer-logo p {
-  color: #383838;
-  font-size: 40px;
-  font-weight: 600;
-}
-
 .footer-social-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
 }
 .footer-icons-container {
-  padding: 10px;
   padding-bottom: 6px;
   background: #fbfbfb;
+}
+.footer-icons-container img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 40px;
+  margin: 0 10px;
 }
 .footer-copyright {
   width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid #797979;
-  padding: 30px 0;
+  border-top: 2px solid #797979;
+  padding: 20px;
 }
 .footer-copyright p {
   display: inline;
-  font-size: 12px;
+  font-size: 14px;
 }
