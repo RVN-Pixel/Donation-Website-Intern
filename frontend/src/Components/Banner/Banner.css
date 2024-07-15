@@ -1,0 +1,10 @@
+.banner-main {
+  margin-top: 80px;
+}
+.banner-inner {
+  width: 100%;
+}
+.banner-inner img {
+  width: 100%;
+  height: 200px;
+}

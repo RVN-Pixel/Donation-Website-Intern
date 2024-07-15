@@ -4,9 +4,9 @@
   display: flex;
   align-content: center;
   justify-content: space-between;
-  margin-top: 150px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-top: 120px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .contact-col {
@@ -22,13 +22,13 @@
   margin-bottom: 20px;
 }
 .contact-col h3 img {
-  width: 35px;
+  width: 30px;
   margin-left: 10px;
 }
 .contact-col p {
   max-width: 450px;
   list-style: 0.3;
-  margin-bottom: 250px;
+  margin-bottom: 200px;
 }
 .contact-col ul li {
   display: flex;
@@ -44,13 +44,14 @@
   box-sizing: border-box;
   border: 5px solid lightblue;
   padding: 30px;
+  padding-top: 20px;
 }
 .form-box legend {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
-  font-size: 30px;
+  margin-bottom: 10px;
+  font-size: 24px;
   font-weight: 600;
   color: #000f38;
 }
@@ -62,7 +63,7 @@
   padding: 15px;
   border: 0;
   outline: 0;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   margin-top: 5px;
   resize: none;
 }
@@ -74,4 +75,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.dark-btn {
+  width: 150px;
 }

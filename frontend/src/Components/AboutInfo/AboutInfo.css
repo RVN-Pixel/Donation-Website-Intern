@@ -1,18 +1,19 @@
 .about-info {
-  margin-top: 120px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   margin-bottom: 100px;
 }
 .about-info h1 {
   color: #171717;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
 }
 .about-info hr {
-  width: 300px;
+  width: 250px;
   height: 6px;
   border-radius: 10px;
   background: orangered;
@@ -20,6 +21,6 @@
 .about-info-item {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 50px;
+  margin-top: 30px;
   gap: 70px;
 }

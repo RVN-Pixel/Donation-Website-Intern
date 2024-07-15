@@ -1,11 +1,11 @@
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 33, 0.8), rgba(7, 0, 48, 0.7)),
+  background: linear-gradient(rgba(0, 0, 33, 0.7), rgba(7, 0, 48, 0.8)),
     url("../../Assets/hero.jpg");
   background-size: cover;
   background-position: center;
-  margin-top: 100px;
+  margin-top: 80px;
   color: white;
   display: flex;
   align-items: center;
@@ -14,7 +14,7 @@
 
 .hero-text {
   text-align: center;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .hero-text h1 {
@@ -23,16 +23,15 @@
 }
 
 .hero-text p {
-  max-width: 700px;
+  max-width: 670px;
   margin: 10px auto 20px;
-  line-height: 1.4;
 }
 .explore {
-  margin-top: 50px;
-  font-size: 40px;
+  margin-top: 20px;
+  font-size: 24px;
   font-weight: 500;
 }
 .explore img {
-  width: 50px;
-  margin-left: 10px;
+  width: 30px;
+  margin-left: 20px;
 }
