@@ -23,10 +23,6 @@
   padding: 10px;
 }
 .food {
-  /*display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;*/
   padding: 15px;
   margin: 15px 0;
   border: 1px solid rgba(128, 128, 128, 0.5);
@@ -37,10 +33,11 @@
   color: darkblue;
   font-weight: 500;
   text-align: left;
+  margin-left: 8px;
 }
 .food-content {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   flex-basis: auto;
-  gap: 20px;
 }

@@ -1,8 +1,10 @@
 import React from "react";
 import "./Footer.css";
-import instagram_icon from "../../Assets/instagram-logo.png";
-import facebook_icon from "../../Assets/facebook-logo.png";
-import whatsapp_icon from "../../Assets/whatsapp-logo.png";
+import instagram_icon from "../../Assets/insta-grey.png";
+import facebook_icon from "../../Assets/facebook-grey.png";
+import linkedin_icon from "../../Assets/linkedin-grey.png";
+import twitter_icon from "../../Assets/twitter-grey.png";
+import snapchat_icon from "../../Assets/snapchat-grey.png";
 
 const Footer = () => {
   return (
@@ -17,7 +19,13 @@ const Footer = () => {
             <img src={facebook_icon} alt="pinterest" />
           </div>
           <div className="footer-icons-container">
-            <img src={whatsapp_icon} alt="whatsapp" />
+            <img src={linkedin_icon} alt="whatsapp" />
+          </div>
+          <div className="footer-icons-container">
+            <img src={twitter_icon} alt="twitter" />
+          </div>
+          <div className="footer-icons-container">
+            <img src={snapchat_icon} alt="twitter" />
           </div>
         </div>
         <p>All Rights Reserved</p>

@@ -1,10 +1,52 @@
-.facility-main {
-  margin-top: 80px;
+.facility {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  margin-right: 120px;
+  gap: 30px;
 }
-.facility-banner {
-  width: 100%;
+.facility h1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 40px;
+  color: darkblue;
+  font-weight: 500;
 }
-.facility-banner img {
-  width: 100%;
-  height: 200px;
+.facility img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+.fac-indi {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.left-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 2px solid rgba(128, 128, 128, 0.5);
+  border-radius: 10px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.content h2 {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.content p {
+  margin-top: 20px;
+  width: 250px;
+  font-size: 15px;
+}
+.content hr {
+  width: 250px;
 }
